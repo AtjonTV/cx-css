@@ -1,7 +1,7 @@
 /*
  * Style:   CX-Dark Style
  * Author:  AtjonTV
- * Version: 1.0.6
+ * Version: 1.0.7
  * Date:    21.11.2017
 */
 
@@ -13,6 +13,7 @@
         Main Container Styling
         Utilities
         Background Colors
+        Foreground Colors
 */
 
 /* Body Styling - BEGIN*/
@@ -136,3 +137,39 @@ body{
     background: cyan;
 }
 /* Background Colors - END*/
+
+/* Foreground Colors - BEGIN*/
+.cx-fg-cx_superdark{
+    color: #202120;
+}
+.cx-fg-cx_dark{
+    color: #2a2b2a;
+}
+.cx-fg-cx_normal{
+    color: #333;
+}
+.cx-fg-cx_light{
+    color: #424042;
+}
+.cx-fg-darkgray{
+    color: darkgray;
+}
+.cx-fg-gray{
+    color: gray;
+}
+.cx-fg-lightgray{
+    color: lightgray;
+}
+.cx-fg-red{
+    color: red;
+}
+.cx-fg-green{
+    color: green;
+}
+.cx-fg-blue{
+    color: blue;
+}
+.cx-fg-cyan{
+    color: cyan;
+}
+/* Foreground Colors - END*/
