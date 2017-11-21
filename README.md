@@ -2,7 +2,7 @@
 
 This is how you include the Development Version of CX:
 
-`&lt;link rel="stylesheet" href="https://raw.githubusercontent.com/AtjonTV/cx-css/dev/cx-dark.css"&gt;`
+`<link rel="stylesheet" href="https://raw.githubusercontent.com/AtjonTV/cx-css/dev/cx-dark.css">`
 
 # License
 
