@@ -1,8 +1,16 @@
 /*
- * Style:   CX Dark Style
+ * Style:   CX-Dark Style
  * Author:  AtjonTV
- * Version: 1.0.3
+ * Version: 1.0.4
  * Date:    21.11.2017
+*/
+
+/*
+    Content:
+        Body Styling
+        Navbar Styling
+        Button Styling
+        Main Container Styling
 */
 
 /* Body Styling - BEGIN*/
@@ -37,7 +45,7 @@ body{
     background-color: #202120;
 }
 
-.cx-navbar .nav-active{
+.cx-navbar .cx-nav-active{
     background: #2a2b2a;
 }
 
