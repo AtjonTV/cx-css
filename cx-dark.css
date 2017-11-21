@@ -1,7 +1,7 @@
 /*
  * Style:   CX-Dark Style
  * Author:  AtjonTV
- * Version: 1.0.4
+ * Version: 1.0.5
  * Date:    21.11.2017
 */
 
@@ -47,6 +47,10 @@ body{
 
 .cx-navbar .cx-nav-active{
     background: #2a2b2a;
+}
+
+.cx-navbar .cx-nav-nonhover:hover{
+    background-color: #333;
 }
 
 .cx-nav-button {
