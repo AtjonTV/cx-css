@@ -1,7 +1,7 @@
 /*
  * Style:   CX-Dark Style
  * Author:  AtjonTV
- * Version: 1.0.7
+ * Version: 1.0.8
  * Date:    21.11.2017
 */
 
@@ -17,8 +17,17 @@
 */
 
 /* Body Styling - BEGIN*/
-body{
+.cx-body-light{
     background: #424042;
+}
+.cx-body-normal{
+    background: #333;
+}
+.cx-body-dark{
+    background: #2a2b2a;
+}
+.cx-body-superdark{
+    background: #202120;
 }
 /* Body Styling - END*/
 
@@ -30,6 +39,20 @@ body{
     padding: 0;
     overflow: hidden;
     background-color: #333;
+}
+
+.cx-navbar .cx-nav-graybox{
+    border: 1px solid gray;
+}
+
+.cx-navbar-whiteborder{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.cx-navbar-grayborder{
+    border: 1px solid gray;
+    border-radius: 5px;
 }
 
 .cx-navbar ul li {
