@@ -1,3 +1,10 @@
+/*
+ * Style:   CX Dark Style
+ * Author:  AtjonTV
+ * Version: 1.0.2
+ * Date:    21.11.2017
+*/
+
 /* Body Styling - BEGIN*/
 body{
     background: #424042;
@@ -53,7 +60,9 @@ body{
 }
 /* Button Styling - END*/
 
+/* Main Container Styling - BEGIN*/
 .cx-container{
     text-align: center;
     color: white;
 }
+/* Main Container Styling - END*/
