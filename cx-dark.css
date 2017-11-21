@@ -1,7 +1,7 @@
 /*
  * Style:   CX-Dark Style
  * Author:  AtjonTV
- * Version: 1.0.5
+ * Version: 1.0.6
  * Date:    21.11.2017
 */
 
@@ -11,6 +11,8 @@
         Navbar Styling
         Button Styling
         Main Container Styling
+        Utilities
+        Background Colors
 */
 
 /* Body Styling - BEGIN*/
@@ -93,3 +95,44 @@ body{
     color: white;
 }
 /* Main Container Styling - END*/
+
+/* Utilities - BEGIN*/
+.cx-hr{
+    width: 100%;
+    height: 1px;
+    background: white;
+}
+.cx-hr-half{
+    width: 50%;
+    height: 1px;
+    background: white;
+    margin: auto;
+}
+/* Utilities - END*/
+
+/* Background Colors - BEGIN*/
+.cx-bg-cx_superdark{
+    background: #202120;
+}
+.cx-bg-cx_dark{
+    background: #2a2b2a;
+}
+.cx-bg-cx_normal{
+    background: #333;
+}
+.cx-bg-cx_light{
+    background: #424042;
+}
+.cx-bg-red{
+    background: red;
+}
+.cx-bg-green{
+    background: green;
+}
+.cx-bg-blue{
+    background: blue;
+}
+.cx-bg-cyan{
+    background: cyan;
+}
+/* Background Colors - END*/
