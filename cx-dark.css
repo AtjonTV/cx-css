@@ -1,8 +1,8 @@
 /*
  * Style:   CX-Dark Style
  * Author:  AtjonTV
- * Version: 1.0.8
- * Date:    21.11.2017
+ * Version: 1.0.9
+ * Date:    22.11.2017
 */
 
 /*
@@ -109,6 +109,22 @@
 }
 
 .cx-button:hover {
+    background-color: #202120;
+}
+
+.cx-button-mini {
+    background-color: #333;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.cx-button-mini:hover {
     background-color: #202120;
 }
 /* Button Styling - END*/
