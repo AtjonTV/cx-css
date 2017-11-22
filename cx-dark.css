@@ -1,7 +1,7 @@
 /*
  * Style:   CX-Dark Style
  * Author:  AtjonTV
- * Version: 1.0.9
+ * Version: 1.1.0
  * Date:    22.11.2017
 */
 
@@ -43,16 +43,6 @@
 
 .cx-navbar .cx-nav-graybox{
     border: 1px solid gray;
-}
-
-.cx-navbar-whiteborder{
-    border: 1px solid white;
-    border-radius: 5px;
-}
-
-.cx-navbar-grayborder{
-    border: 1px solid gray;
-    border-radius: 5px;
 }
 
 .cx-navbar ul li {
@@ -147,6 +137,33 @@
     height: 1px;
     background: white;
     margin: auto;
+}
+
+.cx-whiteborder-rad{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.cx-grayborder-rad{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.cx-whiteborder{
+    border: 1px solid white;
+}
+
+.cx-grayborder{
+    border: 1px solid gray;
+}
+
+.cx-halfwidth{
+	width: 50%;
+}
+
+.cx-center{
+	margin: auto;
+	text-align:center;
 }
 /* Utilities - END*/
 
