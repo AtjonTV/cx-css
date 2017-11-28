@@ -1,8 +1,8 @@
 /*
  * Style:   CX-Dark Style
  * Author:  AtjonTV
- * Version: 1.1.0
- * Date:    22.11.2017
+ * Version: 1.1.1
+ * Date:    28.11.2017
 */
 
 /*
@@ -47,6 +47,10 @@
 
 .cx-navbar ul li {
     float: left;
+}
+
+.cx-navbar ul .cx-nav-floatright {
+    float: right;
 }
 
 .cx-navbar ul li a {
@@ -122,11 +126,36 @@
 /* Main Container Styling - BEGIN*/
 .cx-container{
     text-align: center;
+}
+
+.cx-container-w{
+    text-align: center;
     color: white;
+}
+
+.cx-container-b{
+    text-align: center;
+    color: black;
 }
 /* Main Container Styling - END*/
 
 /* Utilities - BEGIN*/
+.cx-spacer-5{
+    padding: 5px;
+}
+
+.cx-spacer-10{
+    padding: 10px;
+}
+
+.cx-spacer-20{
+    padding: 20px;
+}
+
+.cx-spacer-30{
+    padding: 30px;
+}
+
 .cx-hr{
     width: 100%;
     height: 1px;
@@ -180,6 +209,18 @@
 .cx-bg-cx_light{
     background: #424042;
 }
+.cx-bg-darkgray{
+    background: darkgray;
+}
+.cx-bg-gray{
+    background: gray;
+}
+.cx-bg-lightgray{
+    background: lightgray;
+}
+.cx-bg-white{
+    background: white;
+}
 .cx-bg-red{
     background: red;
 }
@@ -215,6 +256,9 @@
 }
 .cx-fg-lightgray{
     color: lightgray;
+}
+.cx-fg-white{
+    color: white;
 }
 .cx-fg-red{
     color: red;
