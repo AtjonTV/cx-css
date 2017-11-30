@@ -1,14 +1,15 @@
 /*
  * Style:   CX-Dark Style
  * Author:  AtjonTV
- * Version: 1.1.1
- * Date:    28.11.2017
+ * Version: 1.1.2
+ * Date:    30.11.2017
 */
 
 /*
     Content:
         Body Styling
         Navbar Styling
+        Footer Styling
         Button Styling
         Main Container Styling
         Utilities
@@ -89,6 +90,25 @@
 }
 /* Navbar Styling - END*/
 
+/* Footer Styling - BEGIN*/
+.cx-footer{
+    color:white;
+    background-color: #333;
+    border-radius: 5px;
+    margin: 0;
+    padding: 17px;
+    text-align: center;
+}
+.link{
+    font-size: 16px;
+    color: #4286f4;
+    text-decoration: none;
+}
+.link:hover{
+    font-size: 17px;
+}
+/* Footer Styling - END*/
+
 /* Button Styling - BEGIN*/
 .cx-button {
     background-color: #333;
@@ -129,11 +149,19 @@
 }
 
 .cx-container-w{
+    color: white;
+}
+
+.cx-container-wc{
     text-align: center;
     color: white;
 }
 
 .cx-container-b{
+    color: black;
+}
+
+.cx-container-bc{
     text-align: center;
     color: black;
 }
@@ -192,6 +220,15 @@
 
 .cx-center{
 	margin: auto;
+	text-align:center;
+}
+
+.cx-center-d{
+    margin: auto;
+    padding-left: 25%;
+}
+
+.cx-center-t{
 	text-align:center;
 }
 /* Utilities - END*/
